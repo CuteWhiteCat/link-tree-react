@@ -4,8 +4,29 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>WhiteCat - Links</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+        <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                VANTA.CLOUDS({
+                    el: "#vanta",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.0,
+                    minWidth: 200.0,
+                    skyColor: 0x43758c,
+                    sunColor: 0xf29a1d,
+                    sunGlareColor: 0xe35022,
+                    sunlightColor: 0xe18a35,
+                    speed: 0.6,
+                });
+            });
+        </script>
     </head>
     <body>
+        <div id="vanta"></div>
         <div id="root"></div>
     </body>
 </html>

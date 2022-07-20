@@ -11,6 +11,9 @@ import {
 
 import AvatarIcon from "./images/WhiteCat.jpg";
 import HomePage from "./images/homepage.svg";
+import Youtube from "./images/youtube.svg";
+import Twitter from "./images/twitter.svg";
+import Github from "./images/github.svg";
 
 function App() {
     return (
@@ -27,13 +30,22 @@ function App() {
                     </Link>
                 </ButtonLinks>
                 <ButtonLinks>
-                    <Link href="https://www.google.com/">Youtube</Link>
+                    <Link href="https://www.google.com/">
+                        <Icon src={Youtube} alt="youtube" width="20" />
+                        Youtube
+                    </Link>
                 </ButtonLinks>
                 <ButtonLinks>
-                    <Link href="https://www.google.com/">Twitter</Link>
+                    <Link href="https://www.google.com/">
+                        <Icon src={Twitter} alt="twitter" width="20" />
+                        Twitter
+                    </Link>
                 </ButtonLinks>
                 <ButtonLinks>
-                    <Link href="https://www.google.com/">Github</Link>
+                    <Link href="https://www.google.com/">
+                        <Icon src={Github} alt="github" width="20" />
+                        Github
+                    </Link>
                 </ButtonLinks>
             </LinksWrapper>
         </Container>
