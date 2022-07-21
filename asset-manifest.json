@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/link-tree-react/static/css/main.0ffecedb.css",
-    "main.js": "/link-tree-react/static/js/main.70688d46.js",
+    "main.js": "/link-tree-react/static/js/main.3f19fc79.js",
+    "index.html": "/link-tree-react/index.html",
     "static/media/homepage.svg": "/link-tree-react/static/media/homepage.2ea83a33ed0c4b20e3fc994554081a8f.svg",
     "static/media/github.svg": "/link-tree-react/static/media/github.d3f28ea8f4c44d0619715fbbb98b536c.svg",
-    "index.html": "/link-tree-react/index.html",
     "static/media/twitter.svg": "/link-tree-react/static/media/twitter.bac5bc6d3b9675182cf9ad0d72636398.svg",
     "static/media/youtube.svg": "/link-tree-react/static/media/youtube.1a190a0b3d05721670397b6ef94ccc2b.svg",
     "main.0ffecedb.css.map": "/link-tree-react/static/css/main.0ffecedb.css.map",
-    "main.70688d46.js.map": "/link-tree-react/static/js/main.70688d46.js.map"
+    "main.3f19fc79.js.map": "/link-tree-react/static/js/main.3f19fc79.js.map"
   },
   "entrypoints": [
     "static/css/main.0ffecedb.css",
-    "static/js/main.70688d46.js"
+    "static/js/main.3f19fc79.js"
   ]
 }
