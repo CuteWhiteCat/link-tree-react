@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+    position: relative;
+    opacity: 0;
+    filter: blur(10px);
+    transition: all 2s ease-in-out;
+`;
 
 export const Header = styled.header`
     margin-top: 1em;

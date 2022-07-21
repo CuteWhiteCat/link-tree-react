@@ -17,7 +17,7 @@ import Github from "./images/github.svg";
 
 function App() {
     return (
-        <Container>
+        <Container id="main">
             <Header>
                 <Avatar src={AvatarIcon} alt="avatar" />
                 <InsTag>@ whitecatstudy</InsTag>

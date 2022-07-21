@@ -28,5 +28,15 @@
     <body>
         <div id="vanta"></div>
         <div id="root"></div>
+
+        <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                setTimeout(() => {
+                    const main = document.getElementById("main");
+                    main.style.opacity = 1;
+                    main.style.filter = "blur(0px)";
+                }, 1000);
+            });
+        </script>
     </body>
 </html>
