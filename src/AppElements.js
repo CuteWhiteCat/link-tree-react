@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    z-index: 0;
     position: relative;
     opacity: 0;
     filter: blur(10px);
     transition: all 2s ease-in-out;
+    min-height: 100vh;
 `;
 
 export const Header = styled.header`
