@@ -14,15 +14,9 @@ import HomePage from "./images/homepage.svg";
 import Youtube from "./images/youtube.svg";
 import Twitter from "./images/twitter.svg";
 import Github from "./images/github.svg";
-import PullToRefresh from "react-simple-pull-to-refresh";
-
-const handleRefresh = () => {
-    window.location.reload();
-}
 
 function App() {
     return (
-        <PullToRefresh onRefresh={handleRefresh}>
             <Container id="main">
                 <Header>
                     <Avatar src={AvatarIcon} alt="avatar" />
@@ -55,7 +49,6 @@ function App() {
                     </ButtonLinks>
                 </LinksWrapper>
             </Container>
-        </PullToRefresh>
     );
 }
 
