@@ -29,6 +29,11 @@ export const Avatar = styled.img`
     border: 1px solid #fff;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
     z-index: 1;
+
+    @media screen and (max-width: 480px) {
+        width: 5.5em;
+        height: 5.5em;
+    }
 `;
 
 export const InsTag = styled.a`
@@ -44,6 +49,10 @@ export const InsTag = styled.a`
     color: #fff;
     padding: 0.3em 0.8em;
     border: 0.5px solid #fffa;
+
+    @media screen and (max-width: 480px) {
+        font-size: 0.8em;
+    }
 `;
 
 export const LinksWrapper = styled.ul`
@@ -52,6 +61,11 @@ export const LinksWrapper = styled.ul`
     margin: 0 auto;
     padding: 2em;
     max-width: 480px;
+
+    @media screen and (max-width: 480px) {
+        margin-top: -5px;
+        font-size: 0.85em;
+    }
 `;
 
 export const ButtonLinks = styled.li`
@@ -65,6 +79,10 @@ export const ButtonLinks = styled.li`
 
     &:hover {
         background-color: rgba(200, 200, 200, 30%);
+    }
+
+    @media screen and (max-width: 480px) {
+        margin: 1.6em 0;
     }
 `;
 
@@ -90,10 +108,26 @@ export const RightsWrapper = styled.div`
     left: 0;
     right: 0;
     text-align: center;
+
+    @media screen and (max-width: 480px) {
+        bottom: 18%;
+    }
+
+    @media screen and (max-width: 375px) {
+        bottom: 15%;
+    }
 `;
 
-export const Rights = styled.small`
-    font-weight: 500;
+export const Rights = styled.text`
+    font-size: smaller;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1.5px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 10px;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 8px;
+    }
 `;
