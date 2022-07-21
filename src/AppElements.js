@@ -7,6 +7,7 @@ export const Container = styled.div`
     filter: blur(10px);
     transition: all 2s ease-in-out;
     min-height: 100vh;
+    overflow: hidden;
 `;
 
 export const Header = styled.header`
