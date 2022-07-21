@@ -7,12 +7,14 @@ import {
     Icon,
     ButtonLinks,
     Container,
+    Rights,
+    RightsWrapper,
 } from "./AppElements";
 
 import AvatarIcon from "./images/WhiteCat.jpg";
 import HomePage from "./images/homepage.svg";
-import Youtube from "./images/youtube.svg";
-import Twitter from "./images/twitter.svg";
+import Notes from "./images/notes.svg";
+import Website from "./images/website.svg";
 import Github from "./images/github.svg";
 import PullToRefresh from "react-simple-pull-to-refresh";
 
@@ -26,34 +28,42 @@ function App() {
             <Container id="main">
                 <Header>
                     <Avatar src={AvatarIcon} alt="avatar" />
-                    <InsTag>@ whitecatstudy</InsTag>
+                    <InsTag href="https://www.instagram.com/whitecatstudy/">
+                        @ whitecatstudy
+                    </InsTag>
                 </Header>
                 <LinksWrapper>
                     <ButtonLinks>
-                        <Link href="https://www.google.com/">
-                            <Icon src={HomePage} alt="homepage" width="20" />
-                            My Profile
+                        <Link href="">
+                            <Icon src={HomePage} alt="homepage" width="22" />{" "}
+                            &thinsp; Blog (未完工)
                         </Link>
                     </ButtonLinks>
                     <ButtonLinks>
-                        <Link href="https://www.google.com/">
-                            <Icon src={Youtube} alt="youtube" width="20" />
-                            Youtube
+                        <Link href="https://drive.google.com/drive/folders/1AHssKp04aYFJLYQUMbb9ZXvjV1lm1j53?usp=sharing">
+                            <Icon src={Notes} alt="notes" width="23" /> &thinsp;
+                            筆記下載
                         </Link>
                     </ButtonLinks>
                     <ButtonLinks>
-                        <Link href="https://www.google.com/">
-                            <Icon src={Twitter} alt="twitter" width="20" />
-                            Twitter
+                        <Link href="https://izcc.ckcsc.net">
+                            <Icon src={Website} alt="izcc-website" width="18" />{" "}
+                            &thinsp; 暑訓網站
                         </Link>
                     </ButtonLinks>
                     <ButtonLinks>
-                        <Link href="https://www.google.com/">
-                            <Icon src={Github} alt="github" width="20" />
-                            Github
+                        <Link href="https://github.com/CuteWhiteCat/link-tree-react">
+                            <Icon src={Github} alt="github" width="20" />{" "}
+                            &thinsp; Github 專案
                         </Link>
                     </ButtonLinks>
                 </LinksWrapper>
+                <RightsWrapper>
+                    <Rights>
+                        WhiteCat © {new Date().getFullYear()} All rights
+                        reserved.
+                    </Rights>
+                </RightsWrapper>
             </Container>
         </PullToRefresh>
     );
