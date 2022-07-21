@@ -16,6 +16,10 @@ export const Header = styled.header`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 500px) {
+        margin-top: 1em;
+    }
 `;
 
 export const Avatar = styled.img`
