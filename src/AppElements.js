@@ -100,6 +100,7 @@ export const Link = styled.a`
 export const Icon = styled.img``;
 
 export const RightsWrapper = styled.div`
+    position: relative;
     width: 100%;
     margin-top: 25%;
     margin-left: auto;
