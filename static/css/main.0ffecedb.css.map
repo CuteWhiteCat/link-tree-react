@@ -1,1 +1,1 @@
-{"version":3,"file":"static/css/main.0ffecedb.css","mappings":"AAAA,EAGI,mCAAuC,CAFvC,QAAS,CACT,SAEJ","sources":["styled.css"],"sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    font-family: \"Noto Sans TC\", sans-serif;\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"static/css/main.0ffecedb.css","mappings":"AAAA,EAGI,mCAAuC,CAFvC,QAAS,CACT,SAEJ","sources":["styled.css"],"sourcesContent":["* {\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: \"Noto Sans TC\", sans-serif;\r\n}"],"names":[],"sourceRoot":""}
