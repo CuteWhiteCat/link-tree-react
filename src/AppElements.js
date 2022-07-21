@@ -100,9 +100,9 @@ export const Link = styled.a`
 export const Icon = styled.img``;
 
 export const RightsWrapper = styled.div`
-    position: absolute;
+    position: fixed;
     width: 100%;
-    bottom: 5%;
+    margin-top: 25%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -110,11 +110,11 @@ export const RightsWrapper = styled.div`
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        bottom: 18%;
+        margin-top: 15%;
     }
 
     @media screen and (max-width: 375px) {
-        bottom: 15%;
+        margin-top: 5%;
     }
 `;
 
