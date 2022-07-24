@@ -9,7 +9,7 @@
 
 ## 📭 Website
 
-<a style="font-size: 20px; letter-spacing: 1px;" href="https://www.whitecatstudy.tk">https://www.whitecatstudy.tk</a>
+<a style="font-size: 20px; letter-spacing: 1px;" href="https://link.whitecat.tk/">https://link.whitecat.tk</a>
 
 ## 📁 Preview
 <br>
