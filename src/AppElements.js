@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     z-index: 0;
     position: relative;
     opacity: 0;
@@ -58,13 +61,19 @@ export const InsTag = styled.a`
 export const LinksWrapper = styled.ul`
     box-sizing: border-box;
     list-style: none;
-    margin: 0 auto;
     padding: 2em;
-    max-width: 480px;
+    min-width: 480px;
 
     @media screen and (max-width: 480px) {
+        min-width: 350px;
         margin-top: -5px;
         font-size: 0.85em;
+    }
+
+    @media screen and (max-width: 280px) {
+        min-width: 250px;
+        margin-top: -5px;
+        font-size: 0.5em;
     }
 `;
 
@@ -84,6 +93,11 @@ export const ButtonLinks = styled.li`
     @media screen and (max-width: 480px) {
         margin: 1.6em 0;
     }
+
+    @media screen and (max-width: 280px) {
+        padding: 5px;
+        margin: 2.5em 0;
+    }
 `;
 
 export const Link = styled.a`
@@ -100,22 +114,12 @@ export const Link = styled.a`
 export const Icon = styled.img``;
 
 export const RightsWrapper = styled.div`
-    position: relative;
+    position: fixed;
     width: 100%;
-    margin-top: 25%;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
-    right: 0;
+    bottom: 0;
+    margin-bottom: 100px;
     text-align: center;
-
-    @media screen and (max-width: 480px) {
-        margin-top: 15%;
-    }
-
-    @media screen and (max-width: 375px) {
-        margin-top: 5%;
-    }
 `;
 
 export const Rights = styled.text`
@@ -129,5 +133,9 @@ export const Rights = styled.text`
 
     @media screen and (max-width: 375px) {
         font-size: 8px;
+    }
+
+    @media screen and (max-width: 280px) {
+        font-size: 4px;
     }
 `;
